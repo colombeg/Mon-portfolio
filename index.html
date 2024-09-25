@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Colombe Griessmayer, développeuse web & mobile junior."
+    />
+    <!-- CDN pour animation titre -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Theme video pour lecteur -->
+    <link
+      href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+      rel="stylesheet"
+    />
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- CDN video demo Breakout-->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <!-- CDN Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Titre de mon portfolio -->
+    <title>Portfolio Colombe Griessmayer</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="title-portfolio" id="title">
+        <!-- Titre animé -->
+        <h1 class="animate__animated animate__pulse">
+          Portfolio Colombe Griessmayer
+        </h1>
+      </div>
+
+      <!-- Navigation menu portfolio -->
+      <nav class="menu-portfolio">
+        <ul>
+          <li><a href="#about">Mon parcours</a></li>
+          <li><a href="#stack">Ma stack</a></li>
+          <li><a href="#projects">Mes projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Catégorie a propos et stack -->
+      <div class="a-propos-et-stack">
+        <div class="a-propos" id="about">
+          <h2>Développeuse full stack junior</h2>
+          <p>
+            Avant d'entamer une formation de développeuse web & mobile full
+            stack avec La Capsule, j'ai travaillé pour plusieurs multinationales
+            dans le monde du tourisme et de l'hôtellerie/restauration de luxe en
+            France et aux Emirats Arabes Unis.
+          </p>
+          <p style="font-size: 14px">Je suis présente sur :</p>
+          <div class="social-buttons">
+            <a
+              href="https://www.linkedin.com/in/colombe-griessmayer/"
+              class="btn"
+              target="_blank"
+            >
+              <img
+                src="assets/linkedin.png"
+                alt="Lien vers mon profil LinkedIn"
+                title="Mon compte LinkedIn"
+                style="max-width: 100%; height: auto"
+            /></a>
+            <a href="https://github.com/colombeg" class="btn" target="_blank"
+              ><img
+                src="assets/github.jpg"
+                alt="Lien vers mon profil GitHub"
+                title="Mon compte GitHub"
+                style="max-width: 100%; height: auto"
+            /></a>
+            <a
+              href="https://vercel.com/colombe-griessmayers-projects"
+              class="btn"
+              target="_blank"
+            >
+              <img
+                src="assets/vercel.png"
+                alt="Lien vers mon compte Vercel"
+                title="Mon compte Vercel"
+                style="max-width: 100%; height: auto"
+            /></a>
+          </div>
+        </div>
+
+        <div class="ma-stack" id="stack">
+          <h2>Ma stack</h2>
+          <div class="list-stack-technique">
+            <h5>Développement & DevOps</h5>
+            <div class="images-stack-technique">
+              <span class="tooltip-link" data-tooltip="React">
+                <img src="/assets/reactjs.png" alt="reactjs" title="React" />
+              </span>
+              <span class="tooltip-link" data-tooltip="React Native">
+                <img
+                  src="/assets/reactn.jpg"
+                  alt="react-native"
+                  title="React Native"
+                />
+              </span>
+              <span class="tooltip-link" data-tooltip="Node.js">
+                <img src="/assets/nodejs.png" alt="node" title="NodeJS" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Redux">
+                <img
+                  src="/assets/redux.png"
+                  alt="Redux"
+                  title="Redux"
+                  style="background-color: white"
+                />
+              </span>
+              <span class="tooltip-link" data-tooltip="Next.js">
+                <img src="/assets/nextjs.png" alt="next" title="NextJS" />
+              </span>
+              <span class="tooltip-link" data-tooltip="TypeScript">
+                <img src="/assets/ts.jpg" alt="typescript" title="TypeScript" />
+              </span>
+              <span class="tooltip-link" data-tooltip="PHP">
+                <img src="/assets/php.jpg" alt="PHP" title="PHP" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Symfony">
+                <img src="/assets/symfony.png" alt="Symfony" title="Symfony" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Bootstrap">
+                <img
+                  src="/assets/bootstrap.png"
+                  alt="Bootstrap"
+                  title="Bootstrap"
+                />
+              </span>
+              <span class="tooltip-link" data-tooltip="MongoDB">
+                <img src="/assets/mongodb.png" alt="mongodb" title="MongoDB" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Expo">
+                <img src="/assets/expo.jpg" alt="expo" title="Expo" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Git">
+                <img src="/assets/git.png" alt="git" title="Git" />
+              </span>
+            </div>
+          </div>
+          <div class="list-stack-design">
+            <h5>Design & Autres</h5>
+            <div class="images-stack-design">
+              <span class="tooltip-link" data-tooltip="Figma">
+                <img src="/assets/figma.png" alt="Figma" title="Figma" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Miro">
+                <img src="/assets/miro.png" alt="Miro" title="Miro" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Trello">
+                <img src="/assets/Trello.png" alt="Trello" title="Trello" />
+              </span>
+              <span class="tooltip-link" data-tooltip="Whimsical">
+                <img
+                  src="/assets/Whimsical.jpg"
+                  alt="Whimsical"
+                  title="Whimsical"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Catégorie projets pro à afficher -->
+      <div class="mes-projets" id="projects">
+        <h2>Mes projets</h2>
+        <div class="mes-projets-pro">
+          <!-- Mes projets pro -->
+          <div class="projets-professionnels">
+            <div class="liste-projets-pro">
+              <div class="projet-breakout">
+                <img
+                  src="assets/breakout.png"
+                  alt="BreakOut"
+                  title="BreakOut"
+                />
+                <video
+                  id="player"
+                  playsinline
+                  controls
+                  data-poster="/assets/breakout.png"
+                >
+                  <source src="assets/BreakOut.MP4" type="video/mp4" />
+                </video>
+              </div>
+              <p class="to-underline">
+                Application mobile -> MVP crée en groupe
+              </p>
+              <p>
+                Réalisé avec
+                <img
+                  src="/assets/reactn.jpg"
+                  alt="react-native"
+                  title="React Native"
+                  class="icon"
+                />
+                <img
+                  src="/assets/nodejs.png"
+                  alt="NodeJS"
+                  title="NodeJS"
+                  class="icon"
+                />
+                <img
+                  src="/assets/redux.png"
+                  alt="Redux"
+                  title="Redux"
+                  class="icon"
+                  style="background-color: white"
+                />
+                <img
+                  src="/assets/mongodb.png"
+                  alt="MongoDB"
+                  title="MongoDB"
+                  class="icon"
+                />
+                <img
+                  src="/assets/vscode.png"
+                  alt="VsCode"
+                  title="VsCode"
+                  class="icon"
+                />
+                <img
+                  src="/assets/github.jpg"
+                  alt="GitHub"
+                  title="GitHub"
+                  class="icon"
+                />
+                <img
+                  src="/assets/expo.jpg"
+                  alt="Expo"
+                  title="Expo"
+                  class="icon"
+                />
+                <img
+                  src="/assets/vercel.png"
+                  alt="Vercel"
+                  title="Vercel"
+                  class="icon"
+                />
+              </p>
+              <div class="pied-de-page">
+                <a target="_blank" href="assets/footer2.png">
+                  <img
+                    src="assets/footer2.png"
+                    alt="Pied de Page"
+                    title="Pied de Page"
+                    class="to-resize"
+                  />
+                </a>
+                <p class="to-underline">
+                  Création de nouveaux modèles de pied de page, barre de
+                  navigation & autres modules pour le CMS Esy-Web
+                </p>
+                <p>
+                  Réalisé avec
+                  <img
+                    src="/assets/html5.png"
+                    alt="HTML5"
+                    title="HTML5"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/css3.png"
+                    alt="css3"
+                    title="css3"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/js.jpeg"
+                    alt="JavaScript"
+                    title="JavaScript"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/bootstrap.png"
+                    alt="Bootstrap"
+                    title="Bootsrap"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/php.jpg"
+                    alt="PHP"
+                    title="PHP"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/symfony.png"
+                    alt="Symfony"
+                    title="Symfony"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/postgresql.png"
+                    alt="PostgreSQL"
+                    title="PostgreSQL"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/phpstorm.png"
+                    alt="PHPStorm"
+                    title="PHPStorm"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/GitLab.png"
+                    alt="GitLab"
+                    title="GitLab"
+                    class="icon"
+                  />
+                </p>
+              </div>
+              <div class="refonte-produits">
+                <a
+                  target="_blank"
+                  href="https://www.bijouteriepeltier.fr/trade/product/montre-homme-classics-bracelet-acier-inoxidable-argente-cadran-bleu-f20357-3-73"
+                >
+                  <img
+                    src="assets/peltier.png"
+                    alt="Refonte page produit"
+                    title="Refonte page produit"
+                    class="to-resize"
+                /></a>
+                <p class="to-underline">
+                  Refonte des pages produits et de recherche de sites
+                  e-commerces -> Site de la boutique Peltier en ligne
+                </p>
+                <p>
+                  Réalisé avec
+                  <img
+                    src="/assets/html5.png"
+                    alt="HTML5"
+                    title="HTML5"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/css3.png"
+                    alt="css3"
+                    title="css3"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/js.jpeg"
+                    alt="JavaScript"
+                    title="JavaScript"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/bootstrap.png"
+                    alt="Bootstrap"
+                    title="Bootsrap"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/phpstorm.png"
+                    alt="PHPStorm"
+                    title="PHPStorm"
+                    class="icon"
+                  />
+                  <img
+                    src="/assets/GitLab.png"
+                    alt="GitLab"
+                    title="GitLab"
+                    class="icon"
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Mes projets perso : à ajouter ? -->
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact-info" id="contact">
+        <h3>Mes coordonnées</h3>
+        <p><i class="fas fa-envelope"></i> colombe.griessmayer@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +33 6 19 50 83 92</p>
+        <p><i class="fas fa-map-marker-alt"></i> France</p>
+        <!-- Map ajoutée avec api google maps embedded -->
+        <iframe
+          width="250"
+          height="250"
+          frameborder="0"
+          scrolling="yes"
+          src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=02100%20saint-quentin+(Ma%20localisation)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ><a href="https://www.gps.ie/">gps devices</a></iframe
+        >
+      </div>
+
+      <!-- Création fleche retour -->
+      <div class="arrow">
+        <a href="#title"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </main>
+    <footer style="text-align: center">
+      Crée par Colombe Griessmayer - 2024
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="index.js"></script>
+    <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+  </body>
+</html>
